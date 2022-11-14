@@ -57,5 +57,27 @@
         },
         "usingComponents" : true
     },
+	    "mp-weixin": { /* 微信小程序特有相关 */
+	
+	        "appid": "",
+	
+	        "setting": {
+	
+	            "urlCheck": false
+	
+	        },
+	
+	        "usingComponents": true,
+	
+	        "requiredPrivateInfos": [
+	
+	             //"getFuzzyLocation",
+	             //"choosePoi",
+	
+	            "chooseAddress"
+	
+	        ]
+	
+	    },
     "vueVersion" : "2"
 }
